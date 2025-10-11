@@ -1,6 +1,6 @@
 # 🚀 Greenlock AI Chatbot - Backend
 
-Advanced RAG backend with Hybrid Search + Cross-Encoder Re-ranking for investment insights.
+Advanced RAG backend with Hybrid Search + Cross-Encoder Re-ranking for investment insights. For this chatbot i'm using AI Deepseek Model via openrouter.
 
 ---
 
@@ -310,6 +310,7 @@ chmod +x setup-be.sh
 ### 2. Configure `.env`
 ```bash
 OPENROUTER_API_KEY=your-key
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 MODEL=deepseek/deepseek-chat-v3
 HUGGINGFACE_API_KEY=your-key
 ```
