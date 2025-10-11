@@ -287,17 +287,12 @@ knowledge_base/
 
 ## 🚀 Next Steps
 
-### Short Term (1-2 weeks)
 - **Caching Layer**: Redis for common queries (80% faster)
 - **Conversation Memory**: Store last 5 messages for context
 - **Query Analytics**: Track failed queries and response times
-
-### Medium Term (1-2 months)
 - **Incremental Updates**: Zero-downtime deployments
 - **Multi-Modal Support**: Extract tables/charts from PDFs
 - **Fine-tuned Re-ranker**: Domain-specific training (+5-10% accuracy)
-
-### Long Term (3+ months)
 - **Agentic RAG**: Multi-step reasoning with tools
 - **Knowledge Graph**: Entity relationships for complex queries
 - **Feedback Loop**: Continuous improvement from user ratings
