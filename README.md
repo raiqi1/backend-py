@@ -32,8 +32,10 @@ chmod +x setup-be.sh
 
 Edit `.env`:
 ```bash
-OPENROUTER_API_KEY=your_key_here
+OPENROUTER_API_KEY=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
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 MODEL=deepseek/deepseek-chat-v3
+HUGGINGFACE_API_KEY=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
 ```
 
 Get API key: https://openrouter.ai/keys
